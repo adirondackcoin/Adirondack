@@ -1,0 +1,26 @@
+[Unit]
+Description=Adirondack's distributed currency daemon
+After=network.target
+
+[Service]
+User=adirondack
+Group=adirondack
+
+Type=forking
+PIDFile=/var/lib/adirondackd/adirondackd.pid
+
+ExecStart=/usr/bin/adirondackd -daemon -pid=/var/lib/adirondackd/adirondackd.pid \
+          -conf=/etc/adirondack/adirondack.conf -datadir=/var/lib/adirondackd
+
+ExecStop=-/usr/bin/adirondack-cli -conf=/etc/adirondack/adirondack.conf \
+         -datadir=/var/lib/adirondackd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

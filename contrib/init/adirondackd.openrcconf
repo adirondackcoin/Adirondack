@@ -1,0 +1,26 @@
+# /etc/conf.d/adirondackd: config file for /etc/init.d/adirondackd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/adirondack/adirondack.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/adirondackd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/adirondackd.pid"
+
+# Where to write adirondackd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/adirondackd"
+
+# User and group to own adirondackd process
+#BITCOIND_USER="adirondack"
+#BITCOIND_GROUP="adirondack"
+
+# Path to adirondackd executable
+#BITCOIND_BIN="/usr/bin/adirondackd"
+
+# Nice value to run adirondackd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

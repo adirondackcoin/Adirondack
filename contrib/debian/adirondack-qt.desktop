@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Adirondack
+Comment=Adirondack P2P Cryptocurrency
+Comment[fr]=Adirondack, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Adirondack, eşten eşe kriptografik sanal para birimi
+Exec=adirondack-qt %u
+Terminal=false
+Type=Application
+Icon=adirondack128
+MimeType=x-scheme-handler/adirondack;
+Categories=Office;Finance;

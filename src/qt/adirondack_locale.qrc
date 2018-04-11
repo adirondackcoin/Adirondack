@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/adirondack_ca.qm</file>
+        <file alias="da">locale/adirondack_da.qm</file>
+        <file alias="de">locale/adirondack_de.qm</file>
+        <file alias="en">locale/adirondack_en.qm</file>
+        <file alias="en_US">locale/adirondack_en_US.qm</file>
+        <file alias="es">locale/adirondack_es.qm</file>
+        <file alias="fr_FR">locale/adirondack_fr_FR.qm</file>
+        <file alias="it">locale/adirondack_it.qm</file>
+        <file alias="ja">locale/adirondack_ja.qm</file>
+        <file alias="pt">locale/adirondack_pt.qm</file>
+        <file alias="ro_RO">locale/adirondack_ro_RO.qm</file>
+        <file alias="ru">locale/adirondack_ru.qm</file>
+        <file alias="zh_TW">locale/adirondack_zh_TW.qm</file>
+    </qresource>
+</RCC>

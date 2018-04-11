@@ -1,0 +1,11 @@
+[Protocol]
+exec=adirondack-qt '%u'
+protocol=adirondack
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
